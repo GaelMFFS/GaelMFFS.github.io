@@ -226,13 +226,152 @@
         
     </div>
 
-    <footer>
+   <footer>
+    <div class="footer-container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Enlaces Rápidos</h3>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="tareas.html">Tareas</a></li>
+                    <li><a href="recursos.html">Recursos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="acerca.html">Acerca de</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contacto</h3>
+                <p><i class="fas fa-envelope"></i> info@culturadigital2.edu</p>
+                <p><i class="fas fa-phone"></i> +52 644 123 4567</p>
+            </div>
+            <div class="footer-section">
+                <h3>Síguenos</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
         <div class="copyright">
             <p>© 2025 Cultura Digital 2 - Todos los derechos reservados</p>
             <p>Este sitio fue creado con fines educativos como parte de un proyecto académico.</p>
             <p>Última actualización: Mayo 2025</p>
         </div>
-    </footer>
+    </div>
+</footer>
+
+<style>
+    /* Estilos para el footer mejorado */
+    footer {
+        background-color: #2c3e50;
+        color: #ecf0f1;
+        padding: 30px 0 0;
+        margin-top: 40px;
+        font-family: Arial, sans-serif;
+    }
+    
+    .footer-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    
+    .footer-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+    
+    .footer-section {
+        flex: 1;
+        min-width: 250px;
+        margin-bottom: 20px;
+        padding: 0 15px;
+    }
+    
+    .footer-section h3 {
+        color: #ecf0f1;
+        margin-bottom: 15px;
+        font-size: 18px;
+        border-bottom: 2px solid #3498db;
+        padding-bottom: 5px;
+    }
+    
+    .footer-section ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .footer-section ul li {
+        margin-bottom: 10px;
+    }
+    
+    .footer-section ul li a {
+        color: #bdc3c7;
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+    
+    .footer-section ul li a:hover {
+        color: #3498db;
+    }
+    
+    .footer-section p {
+        color: #bdc3c7;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .footer-section p i {
+        margin-right: 10px;
+        color: #3498db;
+    }
+    
+    .social-icons {
+        display: flex;
+        gap: 15px;
+    }
+    
+    .social-icons a {
+        color: #bdc3c7;
+        font-size: 20px;
+        transition: color 0.3s;
+    }
+    
+    .social-icons a:hover {
+        color: #3498db;
+    }
+    
+    .copyright {
+        text-align: center;
+        padding: 20px 0;
+        background-color: #1a252f;
+        color: #7f8c8d;
+        font-size: 14px;
+        border-top: 1px solid #34495e;
+    }
+    
+    .copyright p {
+        margin: 5px 0;
+    }
+    
+    @media (max-width: 768px) {
+        .footer-content {
+            flex-direction: column;
+        }
+        
+        .footer-section {
+            margin-bottom: 30px;
+        }
+    }
+</style>
+
+<!-- Agregar Font Awesome para los íconos -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
     <script>
         // JavaScript para el menú hamburguesa
